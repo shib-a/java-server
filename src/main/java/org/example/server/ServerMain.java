@@ -10,20 +10,27 @@ import java.net.Socket;
 public class ServerMain {
     private static boolean doRunServer = true;
     private boolean doAcceptRequests = true;
-    private final int port = 9000;
-    private final InetSocketAddress socketAddress = new InetSocketAddress(port);
+    private static final int port = 6969;
+    private static final InetSocketAddress socketAddress = new InetSocketAddress(port);
     private static final int connectionLimit = 100;
-    private ServerSocket serverSocket;
-    public void runServer() throws IOException {
+    private static ServerSocket serverSocket;
+    private static ServerConfig _serverConfig;
+    public static void runServer() throws IOException {
         serverSocket = new ServerSocket(port);
-        serverSocket.bind(socketAddress);
+//        serverSocket.bind(socketAddress);
         while(doRunServer){
             Socket clientSocket = serverSocket.accept();
+            System.out.println("New request");
             new Thread(new ConnectionHandler(clientSocket)).start();
         }
     }
 
     public static void setDoRunServer(boolean runServer) {
         doRunServer = runServer;
+    }
+
+    public static void start(ServerConfig serverConfig) {
+        _serverConfig = serverConfig;
+
     }
 }
