@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cb0fd43-9818-48bb-8387-ef6626b4e69e" name="Changes" comment="">
+    <list default="true" id="5cb0fd43-9818-48bb-8387-ef6626b4e69e" name="Changes" comment="Continued on MVP">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/server/ConnectionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/server/ConnectionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/server/ScriptScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/server/ScriptScanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/server/ServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/server/ServerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/server/ServerScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/server/ServerScript.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/server/testScripts/ScriptOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/server/testScripts/ScriptOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +66,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/shibeyshi/IdeaProjects/java-server",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -109,11 +104,26 @@
       <updated>1750945689522</updated>
       <workItem from="1750945690572" duration="785000" />
       <workItem from="1751309245463" duration="5185000" />
-      <workItem from="1751321677774" duration="1392000" />
+      <workItem from="1751321677774" duration="1569000" />
+      <workItem from="1751570861668" duration="47000" />
+      <workItem from="1751627126965" duration="3322000" />
     </task>
+    <task id="LOCAL-00001" summary="Continued on MVP">
+      <option name="closed" value="true" />
+      <created>1751323250358</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751323250358</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Continued on MVP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Continued on MVP" />
   </component>
 </project>
